@@ -79,6 +79,8 @@ DISABLE_AUTO_TITLE="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+source $ZSH/oh-my-zsh.sh
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -107,7 +109,6 @@ plugins=(git)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # adding hx to the tty
 export PATH=$PATH:/usr/bin/hx
@@ -129,4 +130,3 @@ function open {
 
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 fortune -s | cowsay
-
