@@ -128,5 +128,6 @@ function open {
   fi
 }
 
-typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
-fortune -s | cowsay
+# cowsay
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet  # stop warnings
+fortune -s | cowsay -f ~/.cows/$(ls ~/.cows | shuf -n 1)
