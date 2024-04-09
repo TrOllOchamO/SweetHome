@@ -5,6 +5,7 @@ sudo apt upgrade -y
 
 sudo apt install wget -y
 sudo apt install tree -y
+sudo apt install htop -y
 
 chmod +x *.sh
 

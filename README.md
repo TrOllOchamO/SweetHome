@@ -2,7 +2,5 @@
 Minimal configuration to feel right
 
 ## TODO
-- [ ] faster key repeat when hold + smaller delay
-- [ ] super + e for file explorer
+- [ ] [super + e for file explorer](https://wiki.ubuntu.com/Keybindings)
 - [ ] intall firefox with Addon
-- [ ] install htop
