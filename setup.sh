@@ -16,4 +16,5 @@ chmod +x *.sh
 ./zsh_install.sh
 ./cowsay_install.sh
 ./keyboard_settings.sh
+./nerdfont_install.sh
 ./zellij_install.sh
