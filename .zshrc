@@ -113,6 +113,9 @@ source $ZSH/oh-my-zsh.sh
 # adding hx to the tty
 export PATH=$PATH:/usr/bin/hx
 
+# adding cargo to the path
+export PATH=$PATH:$HOME/.cargo/bin
+
 # alias to open helix in the current directory in a new terminal
 alias work="gnome-terminal --window --maximize -- hx ."
 
